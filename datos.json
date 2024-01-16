@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "tipo": "tartas_tortas",
+      "nombre": "Tarta de Manzana",
+      "descripcion": "Deliciosa tarta de manzana con base de hojaldre y relleno de manzanas frescas.",
+      "precio": 1300,
+      "imagen": "https://imag.bonviveur.com/tarta-de-manzana.jpg"
+    },
+    {
+      "id": 2,
+      "tipo": "tartas_tortas",
+      "nombre": "Torta de Chocolate",
+      "descripcion": "Suave y esponjosa torta de chocolate con cobertura de ganache.",
+      "precio": 2000,
+      "imagen": "https://www.aki.com.ec/wp-content/uploads/2021/01/foto-receta-pastel-chocolate.jpg"
+    },
+    {
+      "id": 3,
+      "tipo": "tartas_tortas",
+      "nombre": "Cheescake",
+      "descripcion": "Suave y esponjosa cheescake.",
+      "precio": 1700,
+      "imagen": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_w57l6qc9hj_iv-29-dic-54-1024x683.jpg.webp"
+    },
+    {
+      "id": 4,
+      "tipo": "tartas_tortas",
+      "nombre": "Torta Oreo",
+      "descripcion": "Sabrosa torta de oreos.",
+      "precio": 2900,
+      "imagen": "https://bluebell.com.ar/carta/wp-content/uploads/tortaOREO1.jpg"
+    },
+    {
+      "id": 5,
+      "tipo": "tartas_tortas",
+      "nombre": "Lemon Pie",
+      "descripcion": "Refrescante y tentador.",
+      "precio": 2500,
+      "imagen": "https://locosxlaparrilla.com/wp-content/uploads/2015/02/Receta-recetas-locos-x-la-parrilla-locosxlaparrilla-receta-lemon-pie-lemon-pie-lemon-receta-torta-lemon-pie-2.jpg"
+    },
+    {
+      "id": 6,
+      "tipo": "galletas_alfajores",
+      "nombre": "Galletas de Avena y Pasas",
+      "descripcion": "Galletas saludables con avena, pasas y un toque de canela.",
+      "precio": 1800,
+      "imagen": "https://mejorconsalud.as.com/wp-content/uploads/2018/11/galletas-saludables-con-avena-y-pasas-e1543068433184.jpg"
+    },
+    {
+      "id": 7,
+      "tipo": "galletas_alfajores",
+      "nombre": "Alfajores de Dulce de Leche",
+      "descripcion": "Dulces alfajores rellenos de delicioso dulce de leche argentino.",
+      "precio": 50,
+      "imagen": "https://www.ilolay.com.ar/uploads/recetas/1633202323-Alfajor-gigante-de-Dulce-de-Leche.jpg"
+    },
+    {
+      "id": 8,
+      "tipo": "galletas_alfajores",
+      "nombre": "Alfajores de Maicena",
+      "descripcion": "Dulces alfajores rellenos de delicioso dulce de leche argentino y coco con masa de maicena.",
+      "precio": 40,
+      "imagen": "https://m.media-amazon.com/images/I/71bs80kRKCL.jpg"
+    },
+    {
+      "id": 9,
+      "tipo": "galletas_alfajores",
+      "nombre": "Alfajores de Mousse de Limon",
+      "descripcion": "Tentador alfajor relleno de una refrescante mousse de limón.",
+      "precio": 100,
+      "imagen": "https://franks.com.ar/wp-content/uploads/2021/11/Alfajor-de-mousse-de-limon_3.jpg"
+    },
+    {
+      "id": 10,
+      "tipo": "galletas_alfajores",
+      "nombre": "Alfajores Marplatenses",
+      "descripcion": "Relleno único y suave dulce de leche argentino.",
+      "precio": 120,
+      "imagen": "https://a.allegroimg.com/original/11e59c/3aed3e88426d85147e4e376a8645/Alfajores-Havanna-Dulce-de-leche-i-czekolada-EAN-7791875000013"
+    } 
+]

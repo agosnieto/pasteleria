@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!--<div class="container">
+        <label for="colorInput" class="form-label">Color picker</label>
+        <input type="color" class="form-control form-control-color mb-3 w-100" id="colorInput" value="#563d7c" title="Choose your color">
+        <button id="btnVisualizar" class="btn btn-primary">Visualizar</button>
+        <p id="parrafoHexa">#563d7c</p>
+        <div id="cajaColor" class="card text-center p-5" style="background-color:#563d7c;"></div>
+    </div>-->
+    <div>
+        <li class="listCountry">
+            <b>País:</b>
+            <span class="country"></span>
+        </li>
+    </div>
+    <template></template>
+    <p>Esta página se pone violenta cuando se mantiene presionado la
+        tecla V.</p>
+        <script>
+        window.addEventListener("keydown", evento => {
+        if (evento.key == "v") {
+        document.body.style.background = "violet";
+        }
+        });
+        window.addEventListener("keyup", evento => {
+        if (evento.key == "v") {
+        document.body.style.background = "";
+        }
+        });
+        </script>
+        <style>
+            punto { position: absolute; display: block;
+            border: 2px solid red; border-radius: 50px;
+            height: 100px; width: 100px; }
+            </style>
+            <p>Toca esta página</p>
+            <script>
+            function actualizar(event) {
+            for (let punto; punto = document.querySelector("punto");) {
+            punto.remove();
+            }
+            for (let i = 0; i < evento.touches.length; i++) {
+            let {paginaX, paginaY} = evento.touches[i];
+            let punto = document.createElement("punto");
+            punto.style.left = (paginaX - 50) + "px";
+            punto.style.top = (paginaY - 50) + "px";
+            document.body.appendChild(punto);
+            }
+            }
+            window.addEventListener("touchstart", actualizar);
+            window.addEventListener("touchmove", actualizar);
+            window.addEventListener("touchend", actualizar);
+            </script>
+            <p>Nombre: <input type="text" dato-ayuda="Tu nombre"></p>
+            <p>Edad: <input type="text" dato-ayuda="Tu edad en años"></p>
+            <p id="ayuda"></p>
+            <script>
+            let ayuda = document.querySelector("#ayuda");
+            let campos = document.querySelectorAll("input");
+            for (let campo of Array.from(campos)) {
+            campo.addEventListener("focus", evento => {
+            let texto = evento.target.getAttribute("dato-ayuda");
+            ayuda.textContent = texto;
+            });
+            field.addEventListener("blur", evento => {
+            ayuda.textContent = "";
+            });
+            }
+            </script>
+    <script src="app.js"></script>
+</body>
+</html>

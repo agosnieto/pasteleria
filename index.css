@@ -1,0 +1,38 @@
+.img-style{
+    width: 100%;
+    height: auto;
+}
+/*.body-style{
+    
+    background-image: url("https://i.pinimg.com/564x/99/58/f4/9958f490ef22902d89bd967721058bf3.jpg");
+}*/
+#products-card{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card{
+    margin: 15px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#shopping-card{
+    width: 50px;
+}
+
+.filters{
+    display:flex;
+    width: 400px;
+}
+
+#noResults{
+    display: none;
+    color: red;
+}
